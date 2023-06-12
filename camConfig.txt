@@ -1,0 +1,14 @@
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Backlight Compensation' 1
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Backlight Compensation' 0
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Backlight Compensation' 0
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Exposure (Absolute)' 0
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Exposure (Absolute)' 1
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Exposure (Absolute)' 5
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Exposure (Absolute)' 10
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Exposure (Absolute)' 20
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Brightness' 20
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Brightness' 0
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Exposure (Absolute)' 5
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Brightness' 20
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Brightness' 50
+pi@raspberrypi:~ $ uvcdynctrl -d /dev/video0 --set='Contrast' 0
